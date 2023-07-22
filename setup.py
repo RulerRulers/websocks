@@ -23,7 +23,7 @@ VERSION = "0.1.5"
 # What packages are required for this module to be executed?
 REQUIRED = [
     "uvloop==0.13.0 ; sys_platform != 'win32' and sys_platform != 'cygwin' and platform_python_implementation != 'pypy'",
-    "websockets==8.0.2",
+    "websockets==9.1",
     "click"
 ]
 
